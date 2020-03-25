@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href=“https://fonts.googleapis.com/css?family=Open+Sans:600,700&display=swap” rel=“stylesheet”>
+    <link href=“https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap” rel=“stylesheet”>
+    <title>FEC Demo</title>
+    <style>
+      .videoooooo{
+        width: calc(100% - 424px); 
+        padding: 25px 0 0 0;
+      }
+      .bar {
+        width: calc(100% - 424px); 
+        position:fixed; 
+        top: 0px; 
+        left: 0px;
+        z-index: 9;
+      }
+
+
+      @media only screen and (max-width: 1000px) {
+        .chat {
+          display: none;
+        }
+        .videoooooo{
+          width: 100%;
+        }
+        .bar{
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body style='font-family: Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;' >
+    <div>
+      <div class="bar" id="navBar"></div>
+      <div class="videoooooo" id="App"></div>
+    </div>
+
+    <div class="chat" id="chat-container"></div>
+    <script src="http://localhost:3000/bundle.js"></script>
+    <script src="http://localhost:8001/bundle.js"></script>
+    <script src="http://localhost:8000/main.js"></script>
+  </body>
+</html>

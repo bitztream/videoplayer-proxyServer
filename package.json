@@ -1,0 +1,29 @@
+{
+  "name": "videoplayercomp_proxyserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitztream/videoplayerComp_proxyServer.git"
+  },
+  "author": "Alfred Guan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitztream/videoplayerComp_proxyServer/issues"
+  },
+  "homepage": "https://github.com/bitztream/videoplayerComp_proxyServer#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.9.6",
+    "nodemon": "^2.0.2",
+    "styled-components": "^5.0.1"
+  }
+}
