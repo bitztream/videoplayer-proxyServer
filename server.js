@@ -19,14 +19,6 @@ app.get('/streamers/random', (req, res) => {
 });
 
 
-app.get('/api/get', (req, res) => {
-    axios.get('http://localhost:3000/api/get')
-        .then((result) => {
-            res.status(200).json(result.data);
-        })
-        .catch(err =>  res.status(400).send(err))
-});
-
 app.put('/streamers/:name', (req, res) => {
     const streamerName = req.params.name;
     const updateObject = req.body;
